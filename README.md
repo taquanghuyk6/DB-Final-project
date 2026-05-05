@@ -15,7 +15,7 @@ Library Management System built with **Python**, **SQLAlchemy ORM**, and **MySQL
 ## Technologies Used
 
 *   **Language**: Python 3.13
-*   **Database**: MySQL 80
+*   **Database**: MySQL 8.0
 *   **ORM**: SQLAlchemy (Protects against SQL Injection)
 *   **Driver**: `mysql-connector-python` (with `use_pure=True` to prevent C-extension crashes)
 
