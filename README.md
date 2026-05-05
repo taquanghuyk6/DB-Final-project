@@ -54,10 +54,10 @@ pip install sqlalchemy mysql-connector-python
 
 3. Run the Application
 
-   Navigate to the project directory in your terminal.
-   Run the Python application:
+Navigate to the project directory in your terminal.
+Run the Python application:
    
-   python library_database.py
+python library_database.py
    
 📖 Usage Guide
 Once the application is running, you will be greeted by a Multi-level Main Menu. Here is how to navigate the system:
