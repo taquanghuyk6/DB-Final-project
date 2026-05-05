@@ -5,7 +5,7 @@ Library Management System built with **Python**, **SQLAlchemy ORM**, and **MySQL
 ## ✨ Key Features
 
 *   **🛡️ Role-Based Security**: Dual-user architecture at the database level.
-    *   `librarian_user1`: Full CRUD access for library administration.
+    *   `librarian_user`: Full CRUD access for library administration.
     *   `reader_user`: Read-only access for searching books and authors.
 *   **⚙️ Smart Inventory Management**: Automated tracking of `AvailableQuantity` and `TotalQuantity`. SQL Triggers automatically deduct/add books to the shelf when a borrowing/returning transaction occurs.
 *   **🧠 Intelligent Data Entry**: When adding a new book, the system automatically checks and creates new Authors and Categories if they don't exist, utilizing `session.flush()` and `session.rollback()` to prevent database junk.
@@ -22,10 +22,9 @@ Library Management System built with **Python**, **SQLAlchemy ORM**, and **MySQL
 ## Project Structure
 
 ```text
-├── database.sql       # Database schema, Triggers, Sample Data, and User Grants
-├── app.py             # Main application logic and CLI menus
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation
+├── library_database.sql       # Database schema, Triggers, Sample Data, and User Grants
+├── library_database.py        # Main application logic and CLI menus
+└── README.md                  # Project documentation
 
 ## Installation & Setup
 Follow these steps to run the project on your local machine:
