@@ -21,10 +21,11 @@ Library Management System built with **Python**, **SQLAlchemy ORM**, and **MySQL
 
 ## Project Structure
 
-database.sql       # Database schema, Triggers, Sample Data, and User Grants
-app.py             # Main application logic and CLI menus
-requirements.txt   # Python dependencies
-README.md          # Project documentation
+```text
+├── database.sql       # Database schema, Triggers, Sample Data, and User Grants
+├── app.py             # Main application logic and CLI menus
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation
 
 ## Installation & Setup
 Follow these steps to run the project on your local machine:
@@ -52,6 +53,7 @@ Open your terminal/command prompt and install the required libraries:
 pip install sqlalchemy mysql-connector-python
 
 3. Run the Application
+
    Navigate to the project directory in your terminal.
    Run the Python application:
    
