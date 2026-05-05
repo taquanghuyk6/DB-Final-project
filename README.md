@@ -102,5 +102,6 @@ DATABASE_URI = 'mysql+mysqlconnector://reader_user:StrongPass_Read2026!@127.0.0.
 Note: If you run as reader_user and attempt to add/edit/borrow a book, the application will catch an Access Denied error from MySQL, proving the backend security works perfectly.
 
 Developed by: Ta Quang Huy
+Student ID  : 11247175
 
 Project: Database Management Systems
